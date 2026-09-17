@@ -2,7 +2,10 @@
 
 
 
-Contacto de seguridad: (MartiP)
+<<<<<<< HEAD
+Contacto de seguridad: (MartiP, Marti)
+=======
+
 
 Última revisión: (pendiente)
 
