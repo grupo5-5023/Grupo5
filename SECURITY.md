@@ -7,5 +7,8 @@ Contacto de seguridad: (MartiP, Marti)
 =======
 
 
-Última revisión: (Bao)
+<<<<<<< HEAD
+Última revisión: (Bao,MartiP)
+=======
+
 
