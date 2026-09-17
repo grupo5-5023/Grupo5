@@ -10,5 +10,5 @@
 
 | (miembro B) |         Marti         |                                   |
 
-| (miembro C) |                  |                                   |
+| (miembro C) |           bao       |                                   |
 
