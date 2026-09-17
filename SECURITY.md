@@ -7,5 +7,5 @@ Contacto de seguridad: (MartiP, Marti)
 =======
 
 
-Última revisión: (pendiente)
+Última revisión: (MartiP)
 
