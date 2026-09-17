@@ -8,7 +8,7 @@
 
 | (miembro A) |                  |                                   |
 
-| (miembro B) |                  |                                   |
+| (miembro B) |         Marti         |                                   |
 
 | (miembro C) |                  |                                   |
 
