@@ -8,8 +8,7 @@ Estado global: 1/3 completado
 
 \- \[ ] (ítem A, pendiente)
 
-\- \[ ] (ítem B, pendiente)
+ - [X] ítemA, completado por Bao - 17:52
 
-\- \[X] (Marti Gene C, pendiente)
+ - [X] (Marti Gene C, 18:53)
 
-Ultima revision: Marti Gene 17:52
