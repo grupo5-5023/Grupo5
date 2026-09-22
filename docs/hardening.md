@@ -2,7 +2,7 @@
 
 
 
-Estado global: 0/3 completado
+Estado global: 1/3 completado
 
 
 
@@ -10,5 +10,6 @@ Estado global: 0/3 completado
 
 \- \[ ] (ítem B, pendiente)
 
-\- \[ ] (ítem C, pendiente)
+\- \[X] (Marti Gene C, pendiente)
 
+Ultima revision: Marti Gene 17:52
