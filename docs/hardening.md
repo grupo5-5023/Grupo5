@@ -12,3 +12,5 @@ Estado global: 0/3 completado
 
 \- \[ ] (ítem C, pendiente)
 
+Ultima revisión Marti P a las 6 de la tarde
+
