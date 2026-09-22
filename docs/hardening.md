@@ -2,7 +2,7 @@
 
 
 
-Estado global: 1/3 completado MartiP
+Estado global: 1/3 completado 
 
 
 
