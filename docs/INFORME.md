@@ -1,47 +1,15 @@
-4. Pegad el mensaje de error del push a main protegida y explicad qué regla lo ha bloqueado.
-Al realizar el push desde main, GitHub mostró el siguiente mensaje de error:
+Nueve preguntas: cada miembro responde tres (A: 1–3, B: 4–6, C: 7–9) en el mismo fichero, en su rama, con PR.
 
-remote: error: GH006: Protected branch update failed for refs/heads/main.
-remote: 
-remote: - Changes must be made through a pull request.
-To https://github.com/grupo5-5023/grupo5.git
- ! [remote rejected] main -> main (protected branch hook declined)
-error: failed to push some refs to 'https://github.com/grupo5-5023/grupo5.git'
+7. Roles: ¿qué puede hacer un Maintain que no pueda un Write? ¿Quién podría haber quitado la protección de `main`?
 
-El push fue bloqueado porque al configurar la regla sobre main obligaba a
-obligaba a introducir los cambios mediante una Pull Request con una revisión
-aprobada y prohibe el push directo a main. 
+	Con el rol Maintainpuedes hacer todo lo que puede hacer un Write mas modificar las reglas de proteccion de ramas, cosa que el Write no puede.
+	El que pudiera quitar la proteccion de main puede ser Admin o Maintain, Write no puede
 
+8. Si mañana un miembro sube un force push a `main`, ¿qué se pierde y qué lo impide en vuestro repositorio?
 
-5. ¿Qué comando sacó .env del control de versiones sin borrarlo? ¿Por qué la contraseña sigue 
-siendo un problema y qué haríais en un proyecto real? (Pista: la respuesta empieza por lo que hay 
-que hacer con la contraseña, no con el historial.)
+	Se pierden los commits de otros que yo no tenia en local.
+	Lo impide la proteccion de rama "Do not allow force pushes" que tien main
+	
+9. En la Fase 1 compartíais un portátil y en la Fase 2 cada uno tenía el suyo. ¿Qué diferencia práctica tiene eso para la identidad del autor de cada commit y para cómo aparecen los conflictos?
 
-git rm --cached .env
-
-Este comando quita el archivo .env de Git, pero no lo borra de 
-nuestro ordenador.
-
-La contraseña seguiría siendo un problema porque ya se había subido antes y 
-puede seguir apareciendo en el historial del repositorio.
-
-En un caso realista, lo primero sería cambiar esa contraseña por una nueva,
-luego intentaríamos eliminarla también del historial y dejaríamos .env 
-dentro de .gitignore
-
-6. ¿Qué hace mejor GitHub Desktop que la terminal, y qué no puede hacer? ¿Con 
-cuál habéis entendido mejor el conflicto?
-
-GitHub Desktop es más fácil y visual que la terminal. Desde GitHub Desktop
-permite ver mejor todo el proceso como los commits, las ramas, los cambios...
-sin necesidad de escribir tantos comandos y tener que recordar de ellos.
-
-Un comando que no sería posible realizar desde GitHub Desktop sería:
-git log --oneline --graph --all
-
-Este comando sirve para ver el historial de commits de una forma más completa
-
-GitHub Desktop nos ayudó a entender mejor el conflicto porque podíamos ver 
-de forma más clara qué archivos tenían problemas y los cambios que
-habíamos hecho.
-
+	En la fase 1 simulabamos multiusuarios con un mismo Git, y en la 2 cada uno tenia ya su propio usuario, pero ahora los conflictos ya no son locales, si no mas del remoto compartido
