@@ -2,11 +2,12 @@
 
 
 
-Estado global: 3/3 completado
+Estado global: 1/3 completado MartiP
 
 
 
-* \[X] (ítem A, MartiP, 18:30)
+\- \[x ] (ítem A, MartiP, 18:30)
+
 * \[X] ítemA, completado por Bao - 17:52
 * \[X] (Marti Gene C, 18:53)
 
