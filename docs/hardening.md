@@ -4,7 +4,8 @@
 
 
 
-Estado global: 333/3 completado
+Estado global: 3/3 completado
+
 
 
 
