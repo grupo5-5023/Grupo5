@@ -7,6 +7,7 @@ Estado global: 2/3 completado
 
 
 
+
 * \[X] (ítem A, MartiP, 18:30)
 * \[X] ítemA, completado por Bao - 17:52
 * \[X] (Marti Gene C, 18:53)
