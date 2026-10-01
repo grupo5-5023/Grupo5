@@ -3,7 +3,8 @@
 
 
 
-Estado global: 2/3 completado
+
+Estado global: 3/3 completado
 
 
 
