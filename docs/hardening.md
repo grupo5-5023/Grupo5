@@ -4,7 +4,7 @@
 
 
 Estado global: 1/3 completado 
-Estado global: 3/3 completado
+
 
 
 
